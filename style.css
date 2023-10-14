@@ -1,19 +1,245 @@
-/*
- * Assignment 02
- * CSS FILE
- */
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+*{
+  
 }
 
-h1 {
-  font-size: 2rem;
-  font-weight: bold;
+body{
+  background-color: grey;
+}
+
+header{
+  background-color: black;
+  height: 150px;
   text-align: center;
-  color: #023047;
+  color: darkblue;
+}
+
+header h2{
+  font-size: 3rem;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  padding: 20px 8%;
+}
+
+nav .logo{
+  width: 100px;
+  cursor: pointer;
+  padding-left: 0px;
+  height: 100%;
+}
+
+nav ul{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  margin-bottom: 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.container{
+  height: 600px;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-color: lightblue;
+  background: linear-gradient(to bottom, lightblue, whitesmoke);
+  cursor: url(./images/iconmonstr-soccer-1.svg), auto;
+}
+
+.hero-img{
+  opacity: 0.7;
+  width: 100%;
+  height: 590px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 80%;
+}
+
+.hero-text h1{
+  font-size: 4rem;
+  margin-bottom: 8px;
+  color: darkblue;
+}
+
+.hero-text p{
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: grey;
+}
+
+.hero-text a{
+  text-decoration: none;
+  background: rgb(3, 137, 137);
+  padding: 14px 40px;
+  display: inline-block;
+  color: whitesmoke;
+  font-size: 18px;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+.container2{
+  height: auto;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: whitesmoke;
+  margin-top: 0px;
+  background: linear-gradient(to bottom, whitesmoke, lightblue, whitesmoke);
+  cursor: url(./images/iconmonstr-soccer-1.svg), auto;
+}
+
+
+.body-text h2{
+  font-size: 3rem;
+  text-align: center;
+  color: darkblue;
+}
+
+.container2 img{
+  width: 100%;
+  height: 500px;
+  max-width: 100%;
+  max-height: 9000px; 
+  overflow: hidden;
+}
+
+.body-text p{
+  font-size: 1.4rem;
+  color: black;
+  margin-top: 40px;
+  font: bold;
+}
+
+.body-text ul p{
+  font-size: 4rem;
+  color: black;
+  margin-top: 40px;
+}
+
+.body-text li{
+  font-size: 2rem;
+}
+
+.body-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.players {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+.players ul {
+  width: 60%;
+}
+
+.players img {
+  width: 40%; 
+  max-height: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.container3{
+  height: auto;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: lightblue;
+  margin-top: 0px;
+  background: linear-gradient(to bottom, whitesmoke, lightblue);
+  cursor: url(./images/iconmonstr-soccer-1.svg), auto;
+}
+
+
+
+.sales{
+  height: auto;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: gray;
+  margin-top: 40px;
+  cursor: url(./images/iconmonstr-basket-4.svg), auto;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex: 0 0 calc(30% - 20px); 
+  margin: 10px;
+  padding: 100px;
+  text-align: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  overflow: hidden; 
+  border-color: darkblue;
+  border-style: dashed;
+}
+
+.product h3 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.product p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+.product img {
+  max-width: 100%;
+}
+
+.product button {
+  background-color: #0077b6;
+  color: #fff;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+  margin-top: 30px;
+  cursor: url(./images/iconmonstr-shopping-cart-28.svg), auto;
+}
+
+.product button:hover {
+  background-color: white;
+  color: blue;
 }
