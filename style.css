@@ -44,6 +44,10 @@ nav ul li a{
   color: white;
 }
 
+nav ul address{
+  color: white;
+}
+
 .container{
   height: 600px;
   padding: 20px;
@@ -239,4 +243,60 @@ nav ul li a{
 .product button:hover {
   background-color: white;
   color: blue;
+}
+
+.container4{
+    height: auto;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: lightblue;
+    margin-top: 0px;
+    background: linear-gradient(to bottom, lightblue, lightblue, lightblue);
+    cursor: url(./images/iconmonstr-soccer-1.svg), auto;
+}
+
+footer{
+  background-color: black;
+  height: 150px;
+  text-align: center;
+  color: darkblue;
+  margin-bottom: 0px;
+}
+
+footer h2{
+  font-size: 3rem;
+}
+
+.c{
+  color: black;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+}
+
+.arrow-button {
+  background-color: yellow;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 40px;
+  color: darkblue;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #3498db;
+  margin-left: 40px; 
+  transform: rotate(90deg);
+}
+
+.arrow-button:hover {
+  background-color: #2980b9;
 }
