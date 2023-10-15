@@ -1,9 +1,6 @@
-*{
-  
-}
 
 body{
-  background-color: grey;
+  background-color: #00c863;
 }
 
 header{
@@ -183,7 +180,7 @@ nav ul li a{
   padding: 20px;
   margin-left: 40px;
   margin-right: 40px;
-  background-color: gray;
+  background-color: #00c863;
   margin-top: 40px;
   cursor: url(./images/iconmonstr-basket-4.svg), auto;
 }
