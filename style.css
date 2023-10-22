@@ -300,3 +300,9 @@ footer h2{
 .arrow-button:hover {
   background-color: #2980b9;
 }
+
+.product-container a{
+  background-color: white;
+  border-radius: 2px;
+  border: 100px;
+}
